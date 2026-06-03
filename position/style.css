@@ -1,0 +1,49 @@
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: -3px;
+}
+
+.static{
+    background-color: red;
+
+}
+/* relative mai ham ojects ko kahi par bhi leke ja sakte hai to bottom left right use karke*/
+.relative{
+    background-color: green;
+    /* position: relative;
+    top: 120px;
+    left: 20px; */
+
+}
+
+/* asolute mai overllap hojata hai aur isko bhi ham move kar sakte hai */
+.absolute{
+    background-color: blue;
+    /* position: absolute;
+    top: 30px; */
+}
+
+.fixed{
+    background-color: yellow;
+    /* position: fixed; */
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.sticky{
+    background-color: blanchedalmond;
+    position: sticky;
+    top: 50px;
+}
+
+.main{
+    border: 2px solid black;
+    height: 1000px;
+    width: 100%;
+    background-color: green;
+}

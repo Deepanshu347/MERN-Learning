@@ -1,0 +1,61 @@
+.main{
+    border: 2px solid black;
+    height: 400px;
+    width: 200px;
+    background-color: black;
+    box-shadow: 30px 20px 10px grey;
+}
+
+.red{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 40px ;
+    margin-top: 20px;
+    background-color: red;
+    box-shadow:
+0 0 5px red,
+0 0 10px red,
+0 0 20px red,
+0 0 40px red;
+
+
+}
+.yellow{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 40px ;
+    margin-top: 20px;  
+    background-color: yellow;
+    box-shadow:
+0 0 5px yellow,
+0 0 10px yellow,
+0 0 20px yellow,
+0 0 40px yellow; 
+}
+.green{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 40px ;
+    margin-top: 20px;
+    background-color: green;
+    box-shadow:
+0 0 5px green,
+0 0 10px green,
+0 0 20px green,
+0 0 40px green;
+}
+
+.stick{
+    height: 200px;
+    width: 10px;
+    border: 2px solid black;
+    background-color: black;
+    margin:0 0 0 90px;
+    box-shadow: 30px 20px 10px grey;
+}

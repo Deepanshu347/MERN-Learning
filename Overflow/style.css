@@ -1,0 +1,12 @@
+.main{
+    height: 500px;
+    width: 700px;
+    border: 1px solid black;
+    background-color: red;
+    overflow: hidden;
+    overflow: scroll;
+    
+}
+.main::-webkit-scrollbar{
+display: none;
+}

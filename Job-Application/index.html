@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body   >
+
+    <!-- header -->
+    <h1>Job Application</h1>
+
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="John Doe">
+
+            <br><br>
+
+             <label for="email">Email:</label>
+                <input type="text" id="email" placeholder="email">
+
+                <br><br>
+
+            <label for="telephone">Phone Number:</label>
+                <input type="tel" id="telephone" placeholder="123-456-789">
+
+                <br><br>
+
+            <label for="dob">DOB:</label>
+                <input type="date" id="dob">
+
+                <br><br>
+            <button>Submit</button>
+            
+        </fieldset>
+        <br>
+
+        <!-- gender information -->
+         <fieldset>
+            <legend>Gender Information</legend>
+
+            <input type="radio" id="male" name="gender">
+            <label for="radio">male</label>
+
+            <br>
+
+            <input type="radio" id="female" name="gender">
+            <label for="radio">female</label>
+
+
+            <br>
+
+            <input type="radio" id="other" name="gender">
+            <label for="radio">Other</label>
+
+         </fieldset>
+<br>
+         <!-- skills -->
+
+         <fieldset>
+            <legend>Skills</legend>
+            <label for="skill">Select Skills:</label><br>
+            <input type="checkbox">
+            <label for="mern">MERN</label>
+            <br>
+
+            <input type="checkbox">
+            <label for="dsa">DSA</label>
+            <br>
+
+            <input type="checkbox">
+            <label for="cn">CN</label>
+            <br>
+
+            <input type="checkbox">
+            <label for="da">Data Analyst</label>
+            <br>
+
+         </fieldset>
+<br>
+
+         <!-- additional info -->
+
+         <fieldset>
+            <legend>Additional Information</legend>
+
+            <label for="experience">Year of Experience:</label>
+            <select name="" id="experience">
+                <option disabled selected>--select--</option>
+                <option value="">1 Year</option>
+                <option value="">2 Year</option>
+                <option value="">3+ Year</option>
+            </select>
+
+            <br><br>    
+            <label for="locations">Location:</label>
+            <select name="" id="location">
+                <option disabled selected>--Select City--</option>
+                <option value="brc">Vadodara</option>
+                <option value="ballia">Ballia</option>
+                <option value="noida">Noida</option>
+                <option value="varansai">Varanasi</option>
+            </select>
+<br><br>
+            <label for="resume">Upload Resume:</label>
+            <input type="file" maxlength="10MB" accept=".pdf,.html">
+
+         </fieldset>
+         <br>
+         <button type="submit">Submit</button><br><br>
+         <button type="reset">Reset</button>
+
+         
+    </form>
+</body>
+</html>

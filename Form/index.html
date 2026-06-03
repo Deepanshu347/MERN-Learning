@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student regsitration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- heading -->
+   <h1 style="text-align: center;">Student Registration Form</h1>
+   <!-- form start -->
+   <form>
+    <!-- personal information -->
+    <fieldset id="box">
+        <legend>Personal Information</legend>
+
+        <label>Name:
+            <input type="text" placeholder="Jhon Doe">
+        </label>
+
+        <br>
+        <br>
+<!-- This is explicit -->
+        <label for="email">Email:
+            <input type="text" id="email">
+        </label>
+
+        <br><br>
+        <label for="phone">Phone:
+            <input type="text" id="phone">
+        </label>
+
+        <br><br>
+
+         <label for="dob">Date of birth:
+            <input type="date" id="dob">
+        </label>
+
+    </fieldset>
+
+    <br><br>
+
+    <!-- gender information -->
+    <fieldset>
+       <legend>Gender Information</legend>
+
+        <label for="he">male:
+          <input type="radio" name="gender">
+        </label>
+<br>
+        <label for="she">female:
+          <input type="radio" name="gender">
+        </label>
+
+    </fieldset>
+<br>
+
+    <!-- course information -->
+     <fieldset>
+        <legend>Course Information</legend>
+
+        <label for="">Select Courses:
+            <select name="" id="">
+                <option value="MERN">MERN</option>
+                <option value="DSA">DSA</option>
+                <option value="AI">AI</option>
+                <option value="CLOUd">CLOUD</option>
+                <option value="CN">CN</option>
+            </select>
+        </label>
+     </fieldset>
+   </form>
+    
+</body>
+</html>
