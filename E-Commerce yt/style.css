@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:rgb(17, 16, 16) ;
+}
+
+.nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(17, 16, 16) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: -30px;
+    font-size: 20px;
+    size: 10px;     
+}
+
+.icons{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    gap: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    color: white;
+    display: flex;
+    align-items: center;
+    outline: none;
+    padding: 100px;
+}
+
+.search input{
+    border: none;
+    border: 1px solid rgb(155, 151, 151);
+    background-color: black;
+    border-radius: 30px 0 0 30px;
+    height: 30px;
+    width: 500px;
+    padding-left:20px;
+}   
+
+
+.magnifying{
+     height: 30px;
+       border: 1px solid rgb(155, 151, 151);
+       width:40px ;
+       background-color: rgb(82, 80, 80);
+       align-items: center;
+       border-radius: 0 30px 30px 0;
+
+}
+.magnifying i{
+    margin: 5px 0 0 5px;
+}
+.mic{
+    border: 1px solid white;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(62, 61, 61);
+    border: none;
+
+}
+
+.mic i{
+    margin:6.5px 0 0 3px;
+    font-size: 18px;
+}
+.plus{
+    color: white;
+    display: flex;
+    border: 2px solid white;
+    width: fit-content;
+    height: 20px;
+    border-radius: 60px;
+    padding: 5px;
+    background-color: rgb(60, 60, 60);
+    border: none;
+    align-items: center;
+    font-size: 15px;
+}
+
+.plus i{
+    font-size: 15px;
+}
+
+.profile{
+    color: white;
+    display: flex;
+    margin-right: 20px;
+    gap:10px;
+    align-items: center;
+}
+
+
+
+.sider{
+    height: 100vw;
+    width: 150px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.sideicon{
+    border: 1px solid white;
+    height: 15px;
+    width: 150px;
+    border-radius: 10px;
+    display: flex;
+    gap:20px;
+    padding: 10px;
+    border:none;
+    justify-content: center;
+
+}
+
+.sideicon:hover{
+    background-color: rgb(55, 53, 53);
+}
+
+.hero{
+       flex: 1;
+    height: 100vh;
+    /* border: 1px solid white; */
+    padding: 10px;
+
+}
+
+
+.main{
+    display: flex;
+    gap: 3px;
+}
+
+.hero-text{
+    display: flex;
+    justify-content: space-between;
+    overflow: scroll;
+    overflow: hidden;
+
+
+
+}
+
+.box{
+    height: 20px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: rgb(71, 70, 70);
+    border: none;
+}
+.box:hover{
+    background-color: white;
+}
+ 
+
+
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 20px;
+}
+.boxes{
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 16px;
+    color: white;
+
+}
+
+.boxes:hover{
+    background-color: rgb(50, 50, 50);
+    transition: 0.9s;
+}
+
+.boxes img{
+    height: 85%;
+    width: inherit;
+    border-radius: inherit;
+}
